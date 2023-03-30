@@ -1,13 +1,10 @@
-import './App.css';
-
 import TopBar from './components/TopBar'
 import Background from './components/Background'
 import StoreListings from './components/StoreListings'
 
-
 function App() {
   return (
-    <div className="App">
+    <div style={{ maxWidth: '100%', margin: '0 auto', padding: '20px 0' }}>
       <TopBar />
       <Background />
       <StoreListings />
@@ -16,4 +13,5 @@ function App() {
 }
 
 export default App;
+
 
