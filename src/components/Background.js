@@ -55,7 +55,7 @@ export default function Background() {
           style={{
             width: '20%',
             position: 'absolute',
-            top: '9.1%',
+            top: '11%',
             right: '.0%',
             transform: 'translateY(-50%, -50%)',
           }}
